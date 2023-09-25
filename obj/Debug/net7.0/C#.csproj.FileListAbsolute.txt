@@ -1,0 +1,4 @@
+/Users/d/Desktop/C#/obj/Debug/net7.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/d/Desktop/C#/obj/Debug/net7.0/C#.AssemblyInfoInputs.cache
+/Users/d/Desktop/C#/obj/Debug/net7.0/C#.AssemblyInfo.cs
+/Users/d/Desktop/C#/obj/Debug/net7.0/C#.csproj.CoreCompileInputs.cache
