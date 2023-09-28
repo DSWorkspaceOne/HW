@@ -79,11 +79,64 @@ while (num >= even)
     Console.Write(even + " ");
     even = even + 2;
 }
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
 
+// Задача 1 ДЗ #2 (Напишите программу, которая принимает на вход трёхзначное число
+// и на выходе показывает вторую цифру этого числа.)
 
+Console.Write("Введите трехзначное число ");
+int a1 = int.Parse(Console.ReadLine());
+int a2 = (a1 / 10) % 10;
+if (a1 > 100)
+{
+Console.WriteLine("Вторая цифра числа: " + a2);
+}
+else 
+{
+Console.WriteLine("Ввод некоректен");
+}
 
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
 
+// Задача 2 ДЗ #2 (Напишите программу, которая выводит третью цифру 
+//заданного числа или сообщает, что третьей цифры нет.)
 
+Console.Write("Введите трехзначное число ");
+int b1 = int.Parse(Console.ReadLine());
+int b2 = (b1 % 100) % 10;
+if (b1 >= 100 && b1 < 1000)
+{
+Console.WriteLine("Третья цифра заданного числа : " + b2);
+}
+else
+{
+Console.WriteLine("Третья цифра заданного числа отсутвует");
+}
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
+
+// Задача 2 ДЗ #3 (Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
+//и проверяет, является ли этот день выходным.)
+
+Console.Write("Введите число от 1 до 7: ");
+int c1 = int.Parse(Console.ReadLine());
+if (c1 >= 6 && c1 < 8)
+{
+Console.WriteLine("Ура, входной");
+}
+if (c1 >= 1 && c1 <= 6)
+{
+Console.WriteLine("Увы, рабочий");
+}
+
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
 
 
 
